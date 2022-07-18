@@ -84,7 +84,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Loader\Loader.cpp" />
+    <ClCompile Include="Loader\Loader.ixx" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Exceptions\Exceptions.ixx" />
+    <ClCompile Include="Utils\Utils.cpp" />
+    <ClCompile Include="Utils\Utils.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
